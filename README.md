@@ -7,6 +7,7 @@
 
 Translate between Traditional Chinese and Simplified Chinese.
 
+![Demo](demo.gif)
 
 ## 使用方法 Usage
 
