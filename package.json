@@ -1,0 +1,54 @@
+{
+	"name": "vscode-chinese-translator",
+	"displayName": "Chinese Translator",
+	"description": "Translate between Traditional Chinese and Simplified Chinese.",
+	"publisher": "mollykannn",
+	"version": "1.0.0",
+	"icon": "icon.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mollykannn/vscode-chinese-translator.git"
+	},
+	"engines": {
+		"vscode": "^1.40.0"
+	},
+	"categories": [
+		"Formatters"
+	],
+	"keywords": [
+		"translator",
+		"translation",
+		"translate",
+		"chinese",
+		"traditional chinese",
+		"simplified chinese"
+  ],
+	"activationEvents": [
+		"onCommand:extension.translateToTraditional",
+		"onCommand:extension.translateToSimplified"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.translateToSimplified",
+				"title": "Translate traditional to simplified chinese"
+			},
+			{
+				"command": "extension.translateToTraditional",
+				"title": "Translate simplified to traditional Chinese"
+			}
+		]
+	},
+	"devDependencies": {
+		"@types/glob": "^7.1.1",
+		"@types/mocha": "^5.2.7",
+		"@types/node": "^12.11.7",
+		"@types/vscode": "^1.40.0",
+		"eslint": "^6.6.0",
+		"glob": "^7.1.5",
+		"mocha": "^6.2.2",
+		"typescript": "^3.6.4",
+		"vscode-test": "^1.2.2"
+	}
+}
