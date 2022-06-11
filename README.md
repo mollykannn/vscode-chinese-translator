@@ -23,7 +23,7 @@ Translate between Traditional Chinese and Simplified Chinese.
 
 
 ## 參考 Reference
-- [hilezi/chinese-conv](https://github.com/hilezi/chinese-conv)
+- 辭庫 wordbook：[tongwen-dict](https://github.com/tongwentang/tongwen-dict/)
 
 <br/>
 
