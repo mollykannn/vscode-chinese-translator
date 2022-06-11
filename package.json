@@ -10,7 +10,7 @@
     "url": "https://github.com/mollykannn/vscode-chinese-translator.git"
   },
   "engines": {
-    "vscode": "^1.40.0"
+    "vscode": "^1.68.0"
   },
   "categories": [
     "Formatters"
